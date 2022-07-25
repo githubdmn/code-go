@@ -5,6 +5,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("my first module")
-	fmt.Println("Println")
+
+  var conferenceName = "Go conference!"
+
+  fmt.Println("Welcome to conference")
+
+
+  fmt.Println(conferenceName)
+
 }
